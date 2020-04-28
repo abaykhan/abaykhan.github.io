@@ -1,0 +1,93 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	background: linear-gradient(to right, #FFFFFF, #E7E7E7);
+}
+
+.header {
+	width:100%;
+	left: 0;
+	top: 0;
+}
+
+.navbar, a {
+	font-family: Helvetica;
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-left:20px; 
+	color: #005bac; 
+	text-decoration: none;
+}
+
+
+.navbar a:hover {
+	color: rgb(128, 10, 236);
+	transition: 2s;
+}
+
+.section{
+	margin-top: 100px;
+}
+
+h1 {
+	padding-top: 15px;
+	margin-left: 30px;
+	display: inline-block;
+	font-family: Helvetica;
+	font-size: 72px;
+	color: #005BAC; 	
+}
+
+h3 {
+	margin-top: 30px;
+	font-size: 24px;	
+}
+
+.img1 {
+	margin-top: 10px;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.img2 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+ul {
+	line-height: 1.5;
+}
+
+.our{
+	margin-top: 40px;
+	list-style-type: circle;
+}
+
+.img-wall {
+	margin-top: 60px;
+	width: 480px;
+	height: 480px;
+}
+
+.button1 {
+	outline: none;
+	font-size: 18px;
+	background: none;
+	border: 2px solid rgb(0, 132, 216);
+	color: rgb(0, 132, 216);
+	border-radius: 6px;
+	margin: 100px auto;
+	padding: 30px 60px; 
+}
+
+.button1:hover {
+	color: rgb(128, 10, 236);
+	border: 2px solid rgb(128, 10, 236);
+	transition: 2s;
+}
+
+.video {
+	margin: 10px auto;
+	text-align: center;
+}
