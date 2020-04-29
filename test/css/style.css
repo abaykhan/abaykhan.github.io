@@ -1,0 +1,143 @@
+body {
+	box-sizing: border-box;
+}
+
+.header {
+	padding-top: 20px;
+	text-align: center;
+}
+
+main{
+	background: #fff url(../img/bg.jpg) repeat;
+}
+
+.logo{
+	width: 70px;
+	height: 70px;
+}
+
+a{	
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#000;
+	transform: scale(1.2);
+	transition: .2s;
+}
+.btn{
+	margin: 15px auto; 
+	text-transform: uppercase;
+}
+.phone{
+	display: block;
+	margin-top: 20px;
+}
+
+.main-content{
+	margin-top: 150px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.main-content span{
+	color: #fc6744;
+}
+
+.main-form {
+	margin-top: 20px;
+	background-color: #fff;
+	padding-top: 20px;
+}
+
+.main-form-input,  
+.main-form-input3{
+	width: 80%;
+	background: none;
+	margin: 10px;
+	border: none;
+	border-bottom: 2px solid; 
+}  
+
+.main-form-input3{
+	height: 70px;
+}
+
+.main-button{
+	margin-top: 15px;
+	display: inline-block;
+	width: 80%;
+	height: 55px;
+	border-radius: 27px;
+	border: 1px solid rgba(1, 2, 2, 0.07);
+	background-color: #ff5c36;
+	color: #fff;
+}
+
+.main-button:hover{
+	box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.3);
+
+}
+
+.future {
+	margin-top: 160px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.future-text{
+	color: #fc6744;
+}
+
+.future-box1, .future-box2, 
+.future-box3, .future-box4{
+	margin-top: 100px;
+	width: 262px;
+	height: 263px;
+	border-radius: 4px;
+}
+
+.future-box1:hover, .future-box2:hover, 
+.future-box3:hover, .future-box4:hover {
+	box-shadow: 0 0 35px rgba(20, 20, 21, 0.21);
+}
+
+.future-icon{
+	display: block;
+	padding: 50px 0 20px 112px;
+}
+
+.future-box1{
+	background-color: #4eb2f7;
+}
+
+.future-box2{
+	background-color: #c049f8;
+}
+
+.future-box3{
+	background-color: #817eff;
+}
+
+.future-box4{
+	background-color: #f74770;
+}
+
+.future-btn{
+	position: absolute;
+	display: block;
+	margin-top: 30px;
+	margin-left: 16px;
+	width: 228px;
+	height: 55px;
+	border-radius: 27px;
+	border: none; 
+	background-color: #fff;
+}
+
+.future-btn:hover{
+	box-shadow: 1px 6px 14px rgba(20, 20, 21, 0.09);
+	outline: none;
+}
